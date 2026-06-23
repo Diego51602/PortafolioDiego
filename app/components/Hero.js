@@ -8,12 +8,11 @@ export default function Hero() {
         </div>
 
         <div className="mb-8">
-          <h1 className="text-[clamp(3.5rem,10vw,9rem)] font-black leading-none tracking-tighter uppercase">
-            <span className="text-[#333]">Ingeniero en</span>
+          <p className="font-mono text-xs text-[#444] uppercase tracking-[0.3em] mb-6">Diego Aguirre — Monterrey, México</p>
+          <h1 className="text-[clamp(3.5rem,10vw,9rem)] font-black leading-[0.9] tracking-tighter">
+            <span className="text-white">Full Stack</span>
             <br />
-            <span className="text-white">Desarrollo</span>
-            <br />
-            <span className="text-[#b8ff57]">de Software.</span>
+            <span className="italic text-[#b8ff57] font-black">Developer</span>
           </h1>
         </div>
 
