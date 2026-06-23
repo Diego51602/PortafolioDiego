@@ -8,8 +8,12 @@ export default function Hero() {
         </div>
 
         <div className="mb-8">
-          <h1 className="text-[clamp(4rem,12vw,10rem)] font-black leading-none tracking-tighter text-white uppercase">
-            Full Stack <span className="text-[#b8ff57]">Developer</span>
+          <h1 className="text-[clamp(3.5rem,10vw,9rem)] font-black leading-none tracking-tighter uppercase">
+            <span className="text-[#333]">Ingeniero en</span>
+            <br />
+            <span className="text-white">Desarrollo</span>
+            <br />
+            <span className="text-[#b8ff57]">de Software.</span>
           </h1>
         </div>
 
