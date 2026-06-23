@@ -22,6 +22,10 @@ export default function Contact() {
             <span>diegoaguirreuribe516@gmail.com</span>
             <span className="opacity-0 group-hover:opacity-100 transition-opacity">↗</span>
           </a>
+          <a href="tel:+528123710830"
+            className="group flex items-center gap-3 font-mono text-sm text-[#555] border border-[#1a1a1a] px-6 py-4 rounded-lg hover:border-[#333] hover:text-[#888] transition-all duration-200">
+            <span>+52 812 371 0830</span>
+          </a>
           <a href="https://github.com/Diego51602" target="_blank" rel="noopener noreferrer"
             className="group flex items-center gap-3 font-mono text-sm text-[#555] border border-[#1a1a1a] px-6 py-4 rounded-lg hover:border-[#333] hover:text-[#888] transition-all duration-200">
             <span>github.com/Diego51602</span>

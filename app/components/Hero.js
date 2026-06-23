@@ -15,11 +15,12 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-8 border-t border-[#1a1a1a] pt-8">
           <p className="text-[#888] max-w-sm leading-relaxed text-base">
-            Desarrollador Full Stack con 3 años de experiencia profesional.
-            Construyo desde APIs robustas hasta interfaces que la gente disfruta usar.
+            Ingeniero en Desarrollo de Software con 3 años de experiencia profesional.
+            Especializado en aplicaciones web full stack, migración de sistemas y desarrollo de módulos Odoo.
+            Inglés C1.
           </p>
           <div className="flex gap-8">
-            {[["3+", "Años exp."], ["4", "Proyectos"], ["10+", "Tecnologías"]].map(([n, l]) => (
+            {[["3+", "Años exp."], ["10+", "Proyectos"], ["20+", "Tecnologías"]].map(([n, l]) => (
               <div key={l} className="text-right">
                 <p className="text-2xl font-black text-white">{n}</p>
                 <p className="font-mono text-xs text-[#555] uppercase tracking-widest mt-1">{l}</p>
@@ -31,7 +32,7 @@ export default function Hero() {
 
       <div className="mt-16 overflow-hidden border-t border-[#1a1a1a] pt-6">
         <div className="flex gap-12 animate-none">
-          {["React", "Angular", "Next.js", "Java", "Spring Boot", ".NET", "C#", "Python", "PostgreSQL", "MongoDB", "Docker", "AWS", "Odoo"].map((t) => (
+          {["Angular", "React", "Next.js", ".NET", "C#", "Java", "Spring Boot", "Python", "Laravel", "SQL Server", "PostgreSQL", "MongoDB", "Odoo", "Docker", "AWS"].map((t) => (
             <span key={t} className="font-mono text-xs text-[#444] uppercase tracking-widest whitespace-nowrap">{t}</span>
           ))}
         </div>

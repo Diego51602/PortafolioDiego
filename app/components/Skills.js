@@ -1,8 +1,8 @@
 const groups = [
-  { category: "Frontend", skills: ["React", "Angular", "Next.js", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind"] },
-  { category: "Backend", skills: ["Java", "Spring Boot", ".NET", "C#", "ASP.NET MVC", "Python", "Node.js"] },
-  { category: "Bases de datos", skills: ["PostgreSQL", "MySQL", "SQL Server", "MongoDB"] },
-  { category: "Herramientas", skills: ["Docker", "AWS", "Git", "Swagger", "Odoo", "REST APIs", "JWT"] },
+  { category: "Frontend", skills: ["Angular", "React", "Next.js", "JavaScript", "TypeScript", "HTML5 / Razor", "CSS / SCSS", "Bootstrap", "Tailwind"] },
+  { category: "Backend", skills: [".NET 5+", ".NET Framework", "ASP.NET MVC", "Entity Framework", "Java", "Spring Boot", "Python", "Laravel"] },
+  { category: "Bases de datos", skills: ["SQL Server", "Stored Procedures", "MySQL", "PostgreSQL", "MongoDB"] },
+  { category: "Herramientas", skills: ["Odoo (v18/19)", "QlikView", "Docker", "AWS", "Git / GitHub", "REST APIs", "JWT", "SCRUM", "KANBAN"] },
 ];
 
 export default function Skills() {
