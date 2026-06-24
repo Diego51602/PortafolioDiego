@@ -12,7 +12,7 @@ export default function Contact() {
             <span className="text-[#333]">proyecto?</span>
           </p>
           <p className="text-[#555] text-sm mt-6 max-w-xs leading-relaxed">
-            Escríbeme directo. Sin formularios, sin esperas — respondo el mismo día.
+            Escríbeme directo. respondo el mismo día.
           </p>
         </div>
 
